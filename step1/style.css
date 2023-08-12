@@ -34,3 +34,7 @@ h1 {
 .stopButton:hover {
     background-color: #fff;
 }
+
+.log {
+ text-align: center;   
+}
