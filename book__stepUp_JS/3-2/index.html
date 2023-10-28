@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sample</title>
+</head>
+<body>
+    <div id="app">
+        <button @click="countUp">+1</button>
+        <button @click="countDown">-1</button>
+        <p>{{number}}</p>
+        <p v-if="isPass">合格です！</p>
+        <p v-else="isPass">不合格です！</p>
+
+        <input type="text" v-model="name" name="name" />
+        <p>{{name}}</p>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.7.14/dist/vue.js"></script>
+    <script src="./script/script.js"></script>
+</body>
+</html>
